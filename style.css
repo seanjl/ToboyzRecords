@@ -1,0 +1,67 @@
+/*!
+ * Sean Leitch 2020
+ */
+
+html {
+    scroll-behavior: smooth;
+    background-color: blueviolet !important;
+}
+
+footer {
+    background-color: blueviolet !important;
+}
+
+.nav-logo-img {
+    max-height: 2em;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+
+/* IMAGES */
+
+.card-img-thumb {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+
+/* COLOURS */
+
+.colour-purple {
+    background-color: blueviolet !important;
+}
+
+.colour-darkpurple {
+    background-color: #400379 !important;
+}
+
+.colour-yellow {
+    background-color: #FFFF00 !important;
+}
+
+.colour-cyan {
+    background-color: cyan !important;
+}
+
+.colour-green {
+    background-color: #00ff80 !important;
+}
+
+
+/* BUTTONS */
+
+.button-banner {
+    background-color: #00ff80 !important;
+    border-color: #0c5726 !important;
+    color: #000000;
+}
+
+.button-banner2 {
+    background-color: #FFFF00 !important;
+    border-color: #57560c !important;
+    color: #000000;
+}
