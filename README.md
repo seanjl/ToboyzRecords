@@ -1,2 +1,2 @@
 # TopboyzRecords
-Website for a music collective called Topboyz
+Website for a hip-hop group & label based in Madrid
