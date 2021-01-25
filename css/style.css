@@ -4,7 +4,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: #4e0d53 !important;
+    background-color: #141414 !important;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 }
 
 footer {
-    background-color: #4e0d53 !important;
+    background-color: #141414 !important;
 }
 
 .nav-logo-img {
@@ -53,6 +53,19 @@ footer {
     background-color: #4e0d53 !important;
 }
 
+.colour-darkgrey {
+    background-color: #141414 !important;
+}
+
+.colour-darkgrey-a {
+    background-color: #141414a8 !important;
+}
+
+.colour-none {
+    background: linear-gradient(23deg, #8e1399c5 0%, #3f1052b7 100%), url(../assets/water.jpg) center center;
+    background-size: cover;
+}
+
 .colour-yellow {
     background-color: #FFFF00 !important;
 }
@@ -66,7 +79,9 @@ footer {
 }
 
 .text-colour-yellow {
-    color: #FFFF00 !important;
+    color: #FFD735 !important;
+    font-weight: 700;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 
@@ -90,4 +105,24 @@ footer {
     border: 0;
     padding: 1em;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/* GRID */
+
+iframe {
+    max-width: 100%;
+    display: block;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 0.5rem;
+    overflow: auto;
+}
+
+.item {
+    width: 100%;
+    padding: 1rem;
 }
